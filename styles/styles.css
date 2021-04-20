@@ -1,0 +1,160 @@
+body{
+  background-color: white;
+  font-family:  'Montserrat', sans-serif;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+a {
+    color: #8D9B78;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+a:hover {
+    color: #D9B5BD;
+}
+
+span {
+    color: #D9B5BD;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: 300;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 40px;
+    color: #D9B5BD;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #8D9B78;
+}
+
+h5 {
+    font-size: 14px;
+    margin-bottom: 1px;
+}
+
+hr {
+    border-top: 4px solid #D9B5BD;
+}
+
+.header {
+    background-color: #fff;
+    padding-top: 30px;
+    margin-left: 95px;
+    margin-right: 90px;
+}
+
+.icono {
+    border-top: 4px solid #D9B5BD;
+    border-bottom: 4px solid #D9B5BD;
+    padding: 10px;
+}
+
+.navbar-toggler {
+    background-color: #8D9B78;
+}
+
+.navbar-nav {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.menu-desplegable {
+    background-color: #fff;
+    z-index: 100;
+    position: absolute;
+    right: 0%;
+}
+
+.portada {
+    margin-top: 300px;
+}
+
+.parrafo {
+    color: #8D9B78;
+    font-weight: bold;
+    font-size: 40px;
+    padding-right: 90px;
+}
+
+.parrafo-dos {
+    color: #D9B5BD;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.boton {
+    background-color: #8D9B78;
+}
+
+.btn {
+    padding: 15px 35px;
+}
+
+.respuesta {
+    font-size: 25px;
+}
+
+.border-l {
+    border-left: 4px solid #D9B5BD;
+}
+
+.border-b {
+    border-bottom: 4px solid #D9B5BD;
+}
+
+.border-t {
+    border-top: 4px solid #D9B5BD;
+}
+
+.contacto {
+    background-color: #8D9B78;
+    font-weight: bold;
+    color: #fff;
+}
+
+.card-contacto {
+    background-color: #8D9B78;
+    border: 0px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+
+
+/* wass */
+
+.float{
+	position:fixed;
+	width:100px;
+	height:100px;
+	bottom:40px;
+	right:40px;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+
+
