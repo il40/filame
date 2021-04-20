@@ -64,6 +64,7 @@ hr {
     border-top: 4px solid #D9B5BD;
     border-bottom: 4px solid #D9B5BD;
     padding: 10px;
+    margin-top: 48px;
 }
 
 .navbar-toggler {
@@ -156,5 +157,51 @@ hr {
 	margin-top:16px;
 }
 
+
+/*  @media  */
+
+/*  ---------@MEDIA  992 A 1199 ----------*/
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {font-size: 1rem;}
+
+    a {
+        font-size: 1rem;
+    }
+
+    .parrafo {
+        font-size: 30px;
+    }
+
+    .portada {
+        margin-top: 250px;
+    }
+
+    .respuesta {
+        font-size: 16px;
+    }
+
+    .float {
+    width: 75px;
+    height: 75px;
+    }
+
+    .card-titulo {
+        padding-right: 20px;
+        padding-right: 20px;
+    }
+
+    .icono {
+        margin-top: 40px;
+    }
+}
 
 
