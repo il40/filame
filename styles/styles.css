@@ -40,7 +40,7 @@ h2 {
 
 h3 {
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 22px;
     color: #8D9B78;
 }
 
@@ -76,6 +76,11 @@ hr {
     padding-left: 20px;
 }
 
+.boton-menu {
+    width: 132px;
+    height: 50px;
+}
+
 .menu-desplegable {
     background-color: #fff;
     z-index: 100;
@@ -108,8 +113,12 @@ hr {
     padding: 15px 35px;
 }
 
+.cuadro-pregunta{
+    padding: 15px 5px;
+}
+
 .respuesta {
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .border-l {
@@ -135,6 +144,13 @@ hr {
     border: 0px;
     padding-top: 65px;
     padding-bottom: 65px;
+}
+
+.icono-contacto {
+    border-top: 4px solid #D9B5BD;
+    border-bottom: 4px solid #D9B5BD;
+    padding: 10px;
+    margin-top: 48px;
 }
 
 
@@ -168,7 +184,7 @@ hr {
     }
 
     h2 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     h3 {font-size: 1rem;}
@@ -177,8 +193,19 @@ hr {
         font-size: 1rem;
     }
 
+    .header {
+        padding-top: 5px;
+    }
+
+    .icono {
+        margin-top: 5px;
+    }
+
     .parrafo {
         font-size: 30px;
+    }
+    .parrafo-dos {
+        font-size: 15px;
     }
 
     .portada {
@@ -187,11 +214,12 @@ hr {
 
     .respuesta {
         font-size: 16px;
+        margin-bottom: 2px;
     }
 
     .float {
-    width: 75px;
-    height: 75px;
+    width: 65px;
+    height: 65px;
     }
 
     .card-titulo {
@@ -199,9 +227,47 @@ hr {
         padding-right: 20px;
     }
 
-    .icono {
+    .icono-contacto {
         margin-top: 40px;
     }
+}
+
+
+/*  ---------@MEDIA  768 A 991 ----------*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .header {
+        padding-top: 5px;
+    }
+
+    .icono {
+        margin-top: 5px;
+    }
+
+    .portada {
+        margin-top: 150px;
+    }
+
+    .parrafo {
+        font-size: 25px;
+    }
+
+    .parrafo-dos {
+        font-size: 15px;
+    }
+
+    .float {
+        width: 65px;
+        height: 65px;
+        }
 }
 
 
