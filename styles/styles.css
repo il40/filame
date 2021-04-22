@@ -344,6 +344,10 @@ hr {
         margin-bottom: 2px;
     }
 
+    .border-b-media {
+        border-bottom: 4px solid #D9B5BD;
+    }
+
     .border-l {
         border-left: 0px solid #D9B5BD;
     }
@@ -415,6 +419,10 @@ hr {
     .respuesta {
         font-size: 16px;
         margin-bottom: 2px;
+    }
+
+    .border-b-media {
+        border-bottom: 4px solid #D9B5BD;
     }
 
     .border-l {
