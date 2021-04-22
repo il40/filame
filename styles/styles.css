@@ -83,9 +83,6 @@ hr {
 
 .menu-desplegable {
     background-color: #fff;
-    z-index: 100;
-    position: absolute;
-    right: 0%;
 }
 
 .portada {
@@ -187,10 +184,10 @@ hr {
         font-size: 25px;
     }
 
-    h3 {font-size: 1rem;}
+    h3 {font-size: 16px;}
 
     a {
-        font-size: 1rem;
+        font-size: 16px;
     }
 
     .header {
@@ -236,6 +233,11 @@ hr {
 /*  ---------@MEDIA  768 A 991 ----------*/
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+    body {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
     h1 {
         font-size: 40px;
     }
@@ -244,8 +246,13 @@ hr {
         font-size: 20px;
     }
 
+    h3 {
+        font-size: 16px;
+    }
+
     .header {
         padding-top: 5px;
+        margin: 0px 50px 0px 50px;
     }
 
     .icono {
@@ -264,10 +271,162 @@ hr {
         font-size: 15px;
     }
 
+    .cuadro-pregunta{
+        padding: 10px 5px;
+    }
+    .respuesta {
+        font-size: 16px;
+        margin-bottom: 2px;
+    }
+
+    .card-body {
+        padding: 20px 10px;
+    }
+
+    .icono-contacto {
+        font-size: 30px;
+    }
+
     .float {
         width: 65px;
         height: 65px;
         }
+}
+
+
+/*  ---------@MEDIA  576 A 767 ----------*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    body {
+        padding-left: 40px;
+        padding-right: 40px;
+    }  
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    .header {
+        padding-top: 5px;
+        margin: 0px 40px 0px 40px;
+    }
+
+    .icono {
+        margin-top: 5px;
+    }
+
+    .portada {
+        margin-top: 150px;
+    }
+
+    .parrafo {
+        font-size: 25px;
+    }
+
+    .parrafo-dos {
+        font-size: 15px;
+    }
+
+    .cuadro-pregunta{
+        padding: 10px 5px;
+    }
+    .respuesta {
+        font-size: 16px;
+        margin-bottom: 2px;
+    }
+
+    .border-l {
+        border-left: 0px solid #D9B5BD;
+    }
+
+    .icono-contacto {
+        font-size: 40px;
+    }
+    .card-contacto {
+        padding: 10px 0px;
+    }
+
+}
+
+/*  ---------@MEDIA - 575 ----------*/
+
+
+@media (max-width: 575.98px) {
+    body {
+        padding-left: 20px;
+        padding-right: 20px;
+    }  
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    .header {
+        padding-top: 5px;
+        margin: 0px 20px 0px 20px;
+    }
+
+    .icono {
+        margin-top: 5px;
+    }
+
+    .boton-menu {
+        width: 90px;
+        height: 35px;
+    }
+
+    .navbar-toggler {
+        font-size: 1rem;
+        padding: 4px 6px;
+    }
+
+    .portada {
+        margin-top: 120px;
+    }
+
+    .parrafo {
+        font-size: 20px;
+    }
+
+    .parrafo-dos {
+        font-size: 15px;
+    }
+
+    .cuadro-pregunta{
+        padding: 10px 5px;
+    }
+    .respuesta {
+        font-size: 16px;
+        margin-bottom: 2px;
+    }
+
+    .border-l {
+        border-left: 0px solid #D9B5BD;
+    }
+
+    .icono-contacto {
+        font-size: 40px;
+    }
+    .card-contacto {
+        padding: 10px 0px;
+    }
 }
 
 
